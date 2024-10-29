@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http.Features" Version="3.1.32" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Net.Business.Entities\Net.Business.Entities.csproj" />
+    <ProjectReference Include="..\Net.CrossCotting\Net.CrossCotting.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Sap\Gestion\Definiciones\Finanzas\" />
+    <Folder Include="Sap\SocioNegocio\PersonaContacto\" />
+    <Folder Include="Sap\SocioNegocio\SocioNegocio\" />
+    <Folder Include="Sap\Ventas\Entrega\" />
+    <Folder Include="Sap\Ventas\FacturaVenta\" />
+    <Folder Include="Sap\Ventas\OrdenVenta\" />
+  </ItemGroup>
+
+</Project>

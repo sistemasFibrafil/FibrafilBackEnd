@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Net.Connection.Attributes\Net.Connection.Attributes.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Sap\GestionBancos\PagosEfectuados\" />
+    <Folder Include="Sap\Ventas\Documento\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http.Features" Version="3.1.32" />
+  </ItemGroup>
+
+</Project>

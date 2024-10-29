@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ApiFibrafil</name>
+    </assembly>
+    <members>
+        <member name="P:Net.Business.Services.Models.DataContext.SerieSap">
+            <summary>
+            GENERAL
+            </summary>
+        </member>
+        <member name="P:Net.Business.Services.Models.DataContext.GrupoArticuloSap">
+            <summary>
+            ARTICULOS
+            </summary>
+        </member>
+        <member name="P:Net.Business.Services.Models.DataContext.GrupoSocioNegocioSap">
+            <summary>
+            SOCIO DE NEGOCIOS
+            </summary>
+        </member>
+        <member name="P:Net.Business.Services.Models.DataContext.ForcastVentaConSinOc">
+            <summary>
+            VENTAS
+            </summary>
+        </member>
+    </members>
+</doc>
